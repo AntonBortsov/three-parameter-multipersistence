@@ -1,0 +1,42 @@
+{
+  "cpu": "11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz",
+  "logical_cpu": 0,
+  "kernel": "6.18.58.1-microsoft-standard-WSL2",
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG"
+  ],
+  "repeats": 5,
+  "input_sha256": "01acc7bd0d554824ececa80605c8e0ee00161794f8f14d7dd2a8c101da803430",
+  "harness_sha256": "b52ae80db53c53dcabcd90a321b42c5d74735287db1f577ccb477253444910b6",
+  "headers_sha256": {
+    "before": {
+      "core.hpp": "15acdebe05b988e6a4ab0942f9d35c5de05b1fa3d1eb045fdda1c4d02c934330",
+      "model.hpp": "27911bdb731d88fbacfa9d5605675a9a1da0a1e4feca086f3bdec83765d510a8"
+    },
+    "after": {
+      "binary_columns.hpp": "0f2bd8ffd20d4d062b8725df4e49934949bd90ff361b73dc81076ad6a7da5a80",
+      "block_search.hpp": "8c0a4c6ae0f603a7df794ecb65c2acc265cd482ddce3333ed08bd3908a9ce3bd",
+      "chain_model.hpp": "c40cb053b152e58754a4018343ad1d329e53fb3b03a4abfb9a47413e48bc58eb",
+      "cloud.hpp": "26561262c3fab1fc656b1e7bf89ba22aa038e73536b0f1fae785b2f1a85a1741",
+      "core.hpp": "9f972534550fe071e6c92dbd79eb3cf61fe1fdaab32b5a8e13c5c5a1800a29c4",
+      "distance.hpp": "eb049d929cf0ab7c7677f31e68a2423684d7898cbafcf30f409941cf394d3300",
+      "exchange.hpp": "742e3da6b131f58c6b985c9a0699e7cef42e529a3a99218a6c20c14ade7a4e56",
+      "local_resolution.hpp": "aea91dcaa01a6c00417dc0a66bbf6391492112056bcde0c279219c71949c846e",
+      "model.hpp": "3ce63c91d78fc06e0536d5b09e9ff87ca3bb18c725cb5c55b0ee4e8d7dd69955"
+    }
+  },
+  "generators": 510791,
+  "answers": [
+    629,
+    235,
+    261,
+    476,
+    151,
+    191,
+    219,
+    131
+  ]
+}

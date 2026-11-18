@@ -1,0 +1,4 @@
+/build/
+/multipersistence/build/
+__pycache__/
+*.pyc

@@ -1,0 +1,71 @@
+{
+  "cpu": "11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz",
+  "logical_cpu": 0,
+  "kernel": "6.18.58.1-microsoft-standard-WSL2",
+  "python": "3.14.4",
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "cpp_flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG"
+  ],
+  "trials": 3,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_DYNAMIC": "FALSE",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "rivet_revision": "32ce9e80b06353ed24f1e4e24469bdc6968cc52f",
+  "packages": {
+    "multipers": "2.6.1",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1"
+  },
+  "code_sha256": {
+    "original": {
+      "core.hpp": "15acdebe05b988e6a4ab0942f9d35c5de05b1fa3d1eb045fdda1c4d02c934330",
+      "model.hpp": "27911bdb731d88fbacfa9d5605675a9a1da0a1e4feca086f3bdec83765d510a8"
+    },
+    "updated": {
+      "binary_columns.hpp": "0f2bd8ffd20d4d062b8725df4e49934949bd90ff361b73dc81076ad6a7da5a80",
+      "block_search.hpp": "8c0a4c6ae0f603a7df794ecb65c2acc265cd482ddce3333ed08bd3908a9ce3bd",
+      "chain_model.hpp": "c40cb053b152e58754a4018343ad1d329e53fb3b03a4abfb9a47413e48bc58eb",
+      "cloud.hpp": "26561262c3fab1fc656b1e7bf89ba22aa038e73536b0f1fae785b2f1a85a1741",
+      "core.hpp": "9f972534550fe071e6c92dbd79eb3cf61fe1fdaab32b5a8e13c5c5a1800a29c4",
+      "distance.hpp": "eb049d929cf0ab7c7677f31e68a2423684d7898cbafcf30f409941cf394d3300",
+      "exchange.hpp": "742e3da6b131f58c6b985c9a0699e7cef42e529a3a99218a6c20c14ade7a4e56",
+      "local_resolution.hpp": "aea91dcaa01a6c00417dc0a66bbf6391492112056bcde0c279219c71949c846e",
+      "model.hpp": "3ce63c91d78fc06e0536d5b09e9ff87ca3bb18c725cb5c55b0ee4e8d7dd69955"
+    }
+  },
+  "binary_sha256": {
+    "original": "ddcbe2aec94c9d8029d87f56f30b2201b95e6c69f0e8527ef2b307a1efdd0528",
+    "updated": "edd76ccb2e46149cb00d1e7810beb32a32dc638a979aa1f588b426a8f3f21eed",
+    "rivet_query": "94ad4276fc434129b2a38069983b67c6e6f87d4c99a2050225fe50b5d8926132"
+  },
+  "rivet_console_sha256": "3a17efc31c0788fe6c520693d2f98f53cb20abaec271f65a622eda342db7c0ac",
+  "archive_sha256": "b76aebcfed39d14847efdf90f5d5b5beeb2b3730d457eca12b34448388cbf929",
+  "adapters_sha256": {
+    "measure.hpp": "0a559b566bcff5d5b0d73fb6bc7cfab6639a583240b733a703a0da706986c85f",
+    "native.cpp": "f47d84736bd6fa338ea62d30df1655a80f66081a0b219500a8ae9059766dadc6",
+    "rivet.cpp": "c8dc1115a2fcad75cbce751059e471110c81f7f65edf94ce552a38d734d6c56e",
+    "multipers_worker.py": "f683d58532766987e150fa3a4113746cbd262a161387c92f80e4cc5e74bcf94a",
+    "multipers_joint.py": "1250c6680f91cfc9f003aa69af880e1550e3a79afd94792d1b1e808991e1a886"
+  },
+  "input_sha256": {
+    "15724": {
+      "input2.mp": "7b429b56a74237dd0f1bd09c78020e4c7db439b022d468bbd0b1b6a02e7b19d9",
+      "input3.mp": "01acc7bd0d554824ececa80605c8e0ee00161794f8f14d7dd2a8c101da803430",
+      "input.bif": "c94d21279d98a43c50d85c384957f4442000ebf5df54e9cef0cf246b8899b913"
+    },
+    "21124": {
+      "input2.mp": "21bac58c38777cd548be4be28f190ee2026fa5053d9fa9dd64774525c0e6f58e",
+      "input3.mp": "7ebf06f7a76242b6cc337feb6c87014de86ab804daf938a0bf8ae6cd24f4c147",
+      "input.bif": "315c82388f14e5b8d75ebde5b0e73a0dbbecdcf6b6e3834e6e8210777781d0d8"
+    }
+  }
+}

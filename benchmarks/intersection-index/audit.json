@@ -1,0 +1,18 @@
+{
+  "15724": {
+    "nodes": 72,
+    "covers": 156,
+    "squares": 110,
+    "square_columns": 12953,
+    "antichain_target_combinations": 35525,
+    "distinct_answers_checked": 64
+  },
+  "21124": {
+    "nodes": 72,
+    "covers": 156,
+    "squares": 110,
+    "square_columns": 27701,
+    "antichain_target_combinations": 35525,
+    "distinct_answers_checked": 64
+  }
+}

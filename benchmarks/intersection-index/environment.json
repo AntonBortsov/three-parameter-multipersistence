@@ -1,0 +1,18 @@
+{
+  "logical_cpu": 0,
+  "kernel": "6.18.58.1-microsoft-standard-WSL2",
+  "cpu": "11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz",
+  "cli_sha256": "47b87dc398c819c482e6dbfdf4b59201d2038a6447c3ea5b8cc3b71276d674ab",
+  "runner_sha256": "a4ffefe5dce588daab2d0dfca81a10e7edcffd30d01e6eb06b6cee2b682636f4",
+  "input_sha256": {
+    "15724": "01acc7bd0d554824ececa80605c8e0ee00161794f8f14d7dd2a8c101da803430",
+    "21124": "7ebf06f7a76242b6cc337feb6c87014de86ab804daf938a0bf8ae6cd24f4c147"
+  },
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG"
+  ],
+  "trial_count": 5
+}

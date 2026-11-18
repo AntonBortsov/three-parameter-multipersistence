@@ -1,0 +1,13 @@
+{
+  "cpu": "11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz",
+  "logical_cpu": 0,
+  "os": "6.18.58.1-microsoft-standard-WSL2",
+  "trials": 5,
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "cli_sha256": "1a99fabdb6a48b9178137028a458ce663c3421ff5f258aecdd08cf179d1523f5",
+  "worker_sha256": "6b762e1180cc84dab85652b33d1f12f82e29df845c933887d0190112f9bf3737",
+  "input_hashes": {
+    "15724": "01acc7bd0d554824ececa80605c8e0ee00161794f8f14d7dd2a8c101da803430",
+    "21124": "7ebf06f7a76242b6cc337feb6c87014de86ab804daf938a0bf8ae6cd24f4c147"
+  }
+}
